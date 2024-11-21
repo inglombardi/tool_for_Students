@@ -1,0 +1,758 @@
+
+
+
+---------------- degree mark SOLUTION: STRATEGY PATTERN APPROACH -----------------------
+ ___________ Rules :
+ _________
+Appello_Laurea	Num_punti
+set-24	               3pt.
+ dic-24	               2pt.
+ feb-25	               1pt.
+ _________
+     Condizione_Punti_extra_tesi	            Num_punti_(valori massimi) 
+max 3 pt base inferiore o uguale a 90	           3pt.
+3:4 pt base tra 90,001 e 93,999	                   4pt.
+4:6 pt superiore 93,999	                           6pt.
+ _________
+ =================== test section for avg computation ===========================
+The actual Gabriele's avg is:  23.7375
+The actual Gabriele's avg ROUNDED is:  23.74
+The current __ starting pass mark __ for Degree is ->  87.04
+ Thesis is NOT INCLUDED IN THIS EVALUATION 
+ =================== end test section ===========================
+
+
+
+
+
+Passed exams : 
+  ['matematica_generale', 'linguaggi', 'matematica_finanziaria', 'macroeconomia', 'microeconomia', 'marketing_strategico', 'economia_gestione_imprese', 'marketing_operativo', 'tecnica_bancaria'] 
+
+Assumptions : 
+  ['diritto_del_lavoro', 'organizzazione_aziendale', 'statistica', 'economia_aziendale', 'ragioneria', 'diritto_commerciale', 'finanza_aziendale', 'diritto_privato', 'programmazione_controllo'] 
+ [25, 26, 24, 25, 26, 25, 27, 22, 27]
+Check -> tot credits :  158
+======================================================
+Exam ->  matematica_generale
+- mark ->  21
+- credit ->  12
+ total_marks[k] ->  21
+ total_credits[k] ->  12 
+
+
+======================================================
+Exam ->  linguaggi
+- mark ->  30
+- credit ->  8
+ total_marks[k] ->  30
+ total_credits[k] ->  8 
+
+
+======================================================
+Exam ->  matematica_finanziaria
+- mark ->  18
+- credit ->  6
+ total_marks[k] ->  18
+ total_credits[k] ->  6 
+
+
+======================================================
+Exam ->  macroeconomia
+- mark ->  23
+- credit ->  9
+ total_marks[k] ->  23
+ total_credits[k] ->  9 
+
+
+======================================================
+Exam ->  microeconomia
+- mark ->  20
+- credit ->  12
+ total_marks[k] ->  20
+ total_credits[k] ->  12 
+
+
+======================================================
+Exam ->  marketing_strategico
+- mark ->  26
+- credit ->  9
+ total_marks[k] ->  26
+ total_credits[k] ->  9 
+
+
+======================================================
+Exam ->  economia_gestione_imprese
+- mark ->  28
+- credit ->  9
+ total_marks[k] ->  28
+ total_credits[k] ->  9 
+
+
+======================================================
+Exam ->  marketing_operativo
+- mark ->  22
+- credit ->  6
+ total_marks[k] ->  22
+ total_credits[k] ->  6 
+
+
+======================================================
+Exam ->  tecnica_bancaria
+- mark ->  26
+- credit ->  9
+ total_marks[k] ->  26
+ total_credits[k] ->  9 
+
+
+
+
+ ---- NOT PASSED EXAMS -----
+
+
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 26 with increase __ 1 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 27 with increase __ 1 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 25 with increase __ 1 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 26 with increase __ 1 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 27 with increase __ 1 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 26 with increase __ 1 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 28 with increase __ 1 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 23 with increase __ 1 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 28 with increase __ 1 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering 1 of uncertainty -> 2034
+Check ->  sum between Num1 and Num2 Finished .... 3933
+
+ Check -> total avg considering 1 of uncertainty -> 24.89
+ Check -> total mark of degree 91.26 pushed
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 29 with increase __ 3 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 27 with increase __ 3 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 29 with increase __ 3 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 30 with increase __ 3 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 25 with increase __ 3 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 30 with increase __ 3 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering 3 of uncertainty -> 2190
+Check ->  sum between Num1 and Num2 Finished .... 4089
+
+ Check -> total avg considering 3 of uncertainty -> 25.88
+ Check -> total mark of degree 94.89 pushed
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 25 with increase __ 0 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 26 with increase __ 0 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 24 with increase __ 0 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 25 with increase __ 0 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 26 with increase __ 0 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 25 with increase __ 0 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 27 with increase __ 0 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 22 with increase __ 0 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 27 with increase __ 0 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering 0 of uncertainty -> 1956
+Check ->  sum between Num1 and Num2 Finished .... 3855
+
+ Check -> total avg considering 0 of uncertainty -> 24.4
+ Check -> total mark of degree 89.47 pushed
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 26 with increase __ 1 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 27 with increase __ 1 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 25 with increase __ 1 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 26 with increase __ 1 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 27 with increase __ 1 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 26 with increase __ 1 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 28 with increase __ 1 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 23 with increase __ 1 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 28 with increase __ 1 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering 1 of uncertainty -> 2034
+Check ->  sum between Num1 and Num2 Finished .... 3933
+
+ Check -> total avg considering 1 of uncertainty -> 24.89
+ Check -> total mark of degree 91.26 pushed
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 29 with increase __ 3 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 27 with increase __ 3 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 29 with increase __ 3 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 30 with increase __ 3 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 25 with increase __ 3 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 30 with increase __ 3 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering 3 of uncertainty -> 2190
+Check ->  sum between Num1 and Num2 Finished .... 4089
+
+ Check -> total avg considering 3 of uncertainty -> 25.88
+ Check -> total mark of degree 94.89 pushed
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 29 with increase __ 3 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 27 with increase __ 3 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 29 with increase __ 3 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 30 with increase __ 3 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 25 with increase __ 3 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 30 with increase __ 3 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering 3 of uncertainty -> 2190
+Check ->  sum between Num1 and Num2 Finished .... 4089
+
+ Check -> total avg considering 3 of uncertainty -> 25.88
+ Check -> total mark of degree 94.89 pushed
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 29 with increase __ 3 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 27 with increase __ 3 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 29 with increase __ 3 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 28 with increase __ 3 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 30 with increase __ 3 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 25 with increase __ 3 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 30 with increase __ 3 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering 3 of uncertainty -> 2190
+Check ->  sum between Num1 and Num2 Finished .... 4089
+
+ Check -> total avg considering 3 of uncertainty -> 25.88
+ Check -> total mark of degree 94.89 pushed
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 24 with increase __ -1 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 25 with increase __ -1 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 23 with increase __ -1 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 24 with increase __ -1 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 25 with increase __ -1 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 24 with increase __ -1 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 26 with increase __ -1 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 21 with increase __ -1 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 26 with increase __ -1 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering -1 of uncertainty -> 1878
+Check ->  sum between Num1 and Num2 Finished .... 3777
+
+ Check -> total avg considering -1 of uncertainty -> 23.91
+ Check -> total mark of degree 87.67 pushed
+======================================================
+Exam ->  diritto_del_lavoro
+- supposed mark ->  25
+- credit ->  6 
+
+
+ Recalibrated mark -> 25 with increase __ 0 __
+======================================================
+Exam ->  organizzazione_aziendale
+- supposed mark ->  26
+- credit ->  6 
+
+
+ Recalibrated mark -> 26 with increase __ 0 __
+======================================================
+Exam ->  statistica
+- supposed mark ->  24
+- credit ->  12 
+
+
+ Recalibrated mark -> 24 with increase __ 0 __
+======================================================
+Exam ->  economia_aziendale
+- supposed mark ->  25
+- credit ->  12 
+
+
+ Recalibrated mark -> 25 with increase __ 0 __
+======================================================
+Exam ->  ragioneria
+- supposed mark ->  26
+- credit ->  9 
+
+
+ Recalibrated mark -> 26 with increase __ 0 __
+======================================================
+Exam ->  diritto_commerciale
+- supposed mark ->  25
+- credit ->  9 
+
+
+ Recalibrated mark -> 25 with increase __ 0 __
+======================================================
+Exam ->  finanza_aziendale
+- supposed mark ->  27
+- credit ->  6 
+
+
+ Recalibrated mark -> 27 with increase __ 0 __
+======================================================
+Exam ->  diritto_privato
+- supposed mark ->  22
+- credit ->  9 
+
+
+ Recalibrated mark -> 22 with increase __ 0 __
+======================================================
+Exam ->  programmazione_controllo
+- supposed mark ->  27
+- credit ->  9 
+
+
+ Recalibrated mark -> 27 with increase __ 0 __
+
+
+Tot numerator 1 ->  1899
+Tot numerator 2 considering 0 of uncertainty -> 1956
+Check ->  sum between Num1 and Num2 Finished .... 3855
+
+ Check -> total avg considering 0 of uncertainty -> 24.4
+ Check -> total mark of degree 89.47 pushed
+ ============== FINAL MARK SECTION ==============
+Choose degree months between: 
+ 'a' -> september
+ 'b' -> december
+ 'c' -> february
+ Degree month -> <__main__.september_Strategy object at 0x00000267B004E500>
+All scenarios : 
+  [100.26, 103.89, 96.47, 100.26, 103.89, 103.89, 103.89, 94.67, 96.47]
